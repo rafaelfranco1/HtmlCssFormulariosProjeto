@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <title>Cadastro de Veiculos</title>
+    
+</head>
+<body>
+    <p class = "propaganda">
+        Cadastre seu veículo para vender muito mais rápido!</p>
+    </p>
+
+    <div class = "container">
+        <div class = "cadastro">
+            <p>CADASTRO</p>
+        </div>
+
+        <div class = "principal">
+            <h1>Venda fácil seu veículo!</h1>
+            <p>Descreva as características do seu veículo e marque todas os opicionais e características que ele possui</p>
+        </div>
+
+        <div class = "titulo">
+            <label for = "title">
+                "Título do anúncio: "
+            </label>   
+            <span class = "ast">*</span>
+                <div class = "titulo">
+            <br>
+                <input type="text" name = "title" id = "title" class = "block" placeholder="Defina um título para o seu veículo" minlenght = "1" maxlenght="30" required>
+               
+        </div>
+        <br>
+        <div class = "preco">
+            <label for = "preco">
+                "Preço do veículo: "
+            </label>
+            <span class = "ast">*</span>
+            
+            <br><br>
+
+            <input type="number" id="price" name="price" class="block" required="">
+        </div>
+        <br>
+        <div class = "descricao">
+            <label for = "descricao">
+                "Descrição:"
+                <br>
+            </label>
+    
+                <textarea id="description" name="description" class="block" cols="30" rows="10" required="" placeholder="Descreva seu veículo"></textarea>
+        </div>
+        <br>
+        <div class = "dono">
+            <label for = "dono">
+                "Único Dono: "
+            </label>
+            <select id="unique_owner" name="unique_owner" required="">
+                <option >Selecione</option>
+                <option value ="1">Sim</option>
+                <option value ="1">Não</option>
+                
+            </select>
+            
+        </div>
+        <br>
+        <div class = "marca">
+            <label for = "marca">
+                "Marca: "
+            </label>   
+            <span class = "ast">*</span>
+                <div class = "marca1">
+            <br>
+                <input type="text" name = "title" id = "title" class = "block" placeholder="Digite a marca do seu veículo" minlenght = "1" maxlenght="30" required>
+                </div>
+        </div>
+
+        <br>
+        <div class = "modelo">
+            <label for = "modelo">
+                Digite o modelo do seu veículo: 
+            </label>   
+            <span class = "ast">*</span>
+                <div class = "modelo1">
+            <br>
+                <input type="text" name = "title" id = "title" class = "block" placeholder="Defina um título para o seu veículo" minlenght = "1" maxlenght="30" required>
+               
+                </div>
+        </div>
+        <br>
+
+        <div class = "titulo">
+            <label for = "title">
+                Título do anúncio: "
+            </label>   
+            <span class = "ast">*</span>
+                <div class = "titulo">
+            <br>
+                <input type="text" name = "title" id = "title" class = "block" placeholder="Defina um título para o seu veículo" minlenght = "1" maxlenght="30" required>
+               
+                </div>
+         </div>
+         <br>
+         <div class = "compra">
+            <label for = "compra">
+                Data de compra do veículo:
+            </label>
+            <span class = "ast">*</span>
+                <div class = "titulo">
+            <br>
+            <input type="date" name="purchase_date" id="purchase_date" class="block" required="">
+         </div>
+         <br>
+         <p>Câmbio: </p>
+         <div class = "cambio">
+            <label for = "manual">Manual</label>
+            <input type = "radio" id = "manual" name = "gear">
+            <input type = "radio" id = "auto" name = "gear">
+            <label for="auto">Automático</label>  
+            </label>
+
+         </div>
+         <br>
+         <div class = "checklist">
+         <label for = "opcionais">Opcionais</label>
+            <br>
+            <input type="checkbox" id="airbag" name="airbag" value="airbag">
+            <label for="airbag"> Airbag</label><br>
+            <input type="checkbox" id="alarme" name="alarme" value="alarme">
+            <label for="alarme"> Alarme</label><br>
+            <input type="checkbox" id="trava" name="trava" value="trava">
+            <label for="trava"> Trava elétrica</label><br>
+        </div>
+
+        <div class = "final">
+            <p>Envie imagens do veículo <span class = "ast">*</span></p>
+                <div class = "titulo">
+            <br>
+            <input type="file" multiple="" accept="image/png, image/jpeg" id="images" name="images" required="">
+
+
+        </div>
+        <br>
+        <div class = "botao">
+            <button>Cadastrar</button>
+        </div>
+    </div>
+</body>
+</html>

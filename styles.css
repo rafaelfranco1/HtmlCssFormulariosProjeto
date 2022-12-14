@@ -1,0 +1,37 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.propaganda {
+    background-color: blueviolet;
+    height:200px;
+    font-size:35px;
+    color:white;
+    padding-left:25px;
+    padding-top:20px;
+    }
+body {
+    background-color:rgb(253, 239, 242);
+}
+
+.container {
+    text-align:left;
+    background-color: white;
+    max-width:1000px;
+    position:relative;
+    margin-left: auto;
+	margin-right:auto;
+	padding: 20px 50px;
+	margin: 170px;
+    margin-top: 1px;
+}
+
+.cadastro {
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    color:purple;
+}
+
+.ast {
+    color:red;
+}
